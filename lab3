@@ -1,0 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.array(5)
+x = np.arange(-10, 10, 1)
+plt.plot(np.array(x), np.log(np.array((x**2 + 1))*np.exp(-np.abs(x)/10)), 1+np.tan(np.array((1+np.sin**2(x)**(-1)))
+plt.show()
