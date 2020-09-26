@@ -1,0 +1,5 @@
+import numpy as np
+
+x = np.array(1)
+y = np.log(np.exp(-(np.sin(x)+1))/(5/4+np.array(x**1/15), np.array([1+x**2])
+print (y)
