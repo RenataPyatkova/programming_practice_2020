@@ -8,16 +8,6 @@ def diagonal(l,c):
             s += l[i][N-i-1]
         i += 1
     return s
-def diagonal(l,c):
-    s = 0
-    i = 0
-    while i < N:
-        if c == '1':
-            s += l[i][i]
-        else:
-            s += l[i][N-i-1]
-        i += 1
-    return s
 from random import random
 N = 10
 a = []
